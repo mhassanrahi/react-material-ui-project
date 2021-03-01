@@ -1,7 +1,13 @@
 import React from "react";
+import { Typography } from "@material-ui/core";
+import Navbar from "./Components/Navbar";
 
 const App = () => {
-    return <div>Welcome to material UI.</div>;
+    return (
+        <div>
+            <Navbar></Navbar>
+        </div>
+    );
 };
 
 export default App;
